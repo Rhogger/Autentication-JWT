@@ -6,4 +6,6 @@ type UserProps = {
 
 class User {
   private user: UserProps[] = [];
+
+  createUser;
 }

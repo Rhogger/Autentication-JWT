@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "90d51292-58b9-45e0-b2e8-11d67b7a11b1",
+		"name": "Access Routes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "29623510-90d51292-58b9-45e0-b2e8-11d67b7a11b1"
+	},
+	"item": [
+		{
+			"name": "Access Protected Route",
+			"id": "8de811a3-f51d-4252-8314-cc4db16b9221",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjk0MjI1OTg1LCJleHAiOjE2OTQyMjk1ODV9.fymvKRflB-J3kwuxRhvFwgYHd4LvYTQWN3Oe7UKKizE",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:3000/protected",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"protected"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

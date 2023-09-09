@@ -49,7 +49,9 @@ Instale as dependências do projeto:
 npm install
 ```
 
-E vincule as requisições ao postman.
+E vincule as requisições ao postman:
+
+![Preview](assets/images/import%20postman%20request.png)
 
 <br>
 <br>

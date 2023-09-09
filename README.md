@@ -22,7 +22,7 @@
 
 <div align="center">
 
-![Preview](assets/images/preview.png)
+![Preview](assets/images/Previeww.png)
 
 </div>
 
